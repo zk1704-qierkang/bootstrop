@@ -1,0 +1,221 @@
+body{
+    font-family: "微软雅黑";
+}
+.m-icon{
+    width: 40px;
+    height: 40px;
+    background: #40d2b1;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #fff;
+}
+/* 导航条 */
+.navbar-default{
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.25);
+}
+.navbar-default .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: #40d2b1;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-nav>li:hover{
+    background-color:#d4d3d3;
+}
+.navbar-default .navbar-nav>li>a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    height: 70px;
+    line-height: 50px;
+
+}
+.navbar-toggle {
+    margin-top: 17px;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: #40d2b1;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #1c9982;
+}
+/* 导航条结束 */
+/* 第一屏 home 显示效果 */
+#home{
+    background-color: #000;
+    /*
+        background: url();
+        background-size:cover;
+    */
+    color: #fff;
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+}
+#home .filter{
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.7);
+    padding: 90px 0;
+}
+#home h1{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+#home p{
+    font-weight: 400;
+    line-height: 35px;
+
+}
+#home img{
+    margin-top: 30px;
+    display: inline-block;
+}
+/* 第一屏 home 显示效果结束 */
+/* 第二屏 bbs 显示效果 开始*/
+#BBS{
+    padding: 80px 0;
+    text-align: center;
+}
+#BBS .col-md-4{
+    padding: 15px;
+}
+#BBS .col-md-4:hover{
+    background: #f1f1f1;
+    box-shadow: 1px 1px 4px #ccc;
+}
+#BBS a{
+    color: #212121;
+    text-decoration: none;
+}
+#BBS h3{
+    padding: 5px 0;
+    font-weight: bold;
+}
+#BBS p{
+    line-height: 30px;
+}
+#BBS img{
+    margin: 0 auto;
+}
+/* 第二屏 bbs 效果显示 结束  */
+/* 第三屏 前端开发 效果显示 开始 */
+#web ,#bootstrap{
+    background-color: #f8f8f8;
+    padding:80px 0 ;
+    text-align: center;
+}
+#web  .col-md-6,#bootstrap .col-md-6{
+    /* padding: 15px; */
+}
+#web h2,#bootstrap h2{
+    font-weight: bold;
+    margin-top: 10px;
+}
+#web img,#bootstrap img{
+  margin: 0 auto;  
+}
+/* 第三屏 前端开发 效果显示 结束 */
+/* 第5屏 最新课程 效果显示 开始 */
+#course{
+    background-color: #f8f8f8;
+    text-align: center;
+}
+#course .course{
+    background-color: #fff;
+    margin: 10px 0 20px 0;
+}
+#course .btn-primary{
+    background: transparent;
+    border: 1px solid #40d2b1; 
+    color: #40d2b1;
+    margin: 20px 0 30px 0;
+    padding: 8px 40px;
+    border-radius: 0;
+    transition: all 1s ;
+}
+#course .btn-primary:hover{
+    background-color: #40d2b1;
+    color: #fff;
+}
+#course>a{
+    display: block;
+}
+#course img{
+    margin:0 auto;
+}
+/* 第5屏 最新课程 效果显示 结束 */
+/* 第6屏 app 效果展示 開始 */
+#app{
+    background-color: #fff;
+    padding: 80px 0;
+}
+#app h2{
+    padding-bottom: 20px;
+}
+#app .btn-primary{
+    color: #fff;
+    background-color: #40d2b1;
+    border-color: #40d2b1;
+    border-radius: 0;
+    padding: 6px 30px;
+    margin: 20px 0;
+    transition: all 2s ease-in-out;
+}
+#app .btn-primary:hover{
+    background-color: rgb(44, 142, 120);
+}
+/* 第6屏 app 效果展示 結束 */
+/* 第7屏 聯繫我們 效果展示 開始 */
+#contact{
+    background-image: url();
+    color: #fff;
+}
+#contact .filter{
+    padding: 80px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#contact h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+#contact p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+#contact .form-control{
+    border-radius: 0;
+    border: none;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type=submit]{
+    background-color: #40d2b1;
+    border: 1px solid #40d2b1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 2s;
+
+}
+#contact input[type=submit]:hover{
+    background-color: rgb(44, 142, 120);
+}
+/* 第7屏 聯繫我們 效果展示 結束 */
+/* 底部效果 */
+#footer p{
+    font-weight: bold;
+    text-align: center;
+    line-height: 45px;
+    margin-bottom: 0px;
+}
+/* 底部效果 */
